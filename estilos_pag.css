@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+    color: #481E14;
+}
+
+h2{
+    text-align: center;
+    color: #344955;
+}
+
+p{
+    text-align: justify;
+    color: #800000;
+}
+
+.texto {
+    text-align: center;
+}
+
+#id-demo-selector {
+    color: gray;
+}
+
+li[value="2"]{
+    color: blueviolet;
+}
+
+*{
+    text-align: center;
+}
+
+/* Aplicar estilos al contenedor de la tabla */
+.tabla {
+    display: flex;          /* Flexbox para centrar */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center;     /* Centramos verticalmente, opcional */
+    height: 100vh;           /* Ajustar al tamaño completo de la ventana si lo deseas */
+}
+
+/* Aplicar estilos opcionales a la tabla */
+table {
+    border-collapse: collapse;
+    width: 50%; /* Puedes ajustar el tamaño de la tabla */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
